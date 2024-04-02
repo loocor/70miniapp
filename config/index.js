@@ -1,3 +1,4 @@
+import path from "node:path";
 import {defineConfig} from '@tarojs/cli'
 
 import devConfig from './dev'
@@ -29,6 +30,10 @@ export default defineConfig(async (merge) => {
       prebundle: {
         enable: false
       }
+    },
+    alias: {
+      '@/components': path.resolve(__dirname, '..', 'src/components'),
+      '@/utils': path.resolve(__dirname, '..', 'src/utils'),
     },
     cache: {
       enable: false // https://docs.taro.zone/docs/config-detail#cache
