@@ -7,7 +7,7 @@ import prodConfig from './prod'
 // https://taro-docs.jd.com/docs/next/config#defineconfig-辅助函数
 export default defineConfig(async (merge) => {
   const baseConfig = {
-    projectName: 'InvestMap',
+    projectName: '70th-fitness',
     date: '2024-4-2',
     designWidth: 375,
     deviceRatio: {

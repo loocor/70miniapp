@@ -1,11 +1,11 @@
 {
   "miniprogramRoot": "./",
-  "projectname": "InvestMap",
-  "description": "An investment map project",
+  "projectname": "70th-fitness",
+  "description": "Mini-program for 70thFitness Fitness Center",
   "appid": "touristappid",
   "setting": {
-    "urlCheck": true,
     "es6": false,
+    "urlCheck": true,
     "postcss": false,
     "minified": false
   },

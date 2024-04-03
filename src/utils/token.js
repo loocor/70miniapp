@@ -1,6 +1,7 @@
 import Taro from "@tarojs/taro";
 
 // Get a token from FileMaker Server
+// More info: https://help.claris.com/en/restapi/index.html#authentication
 export const getFmsToken = async (database) => {
   // Get the FileMaker Server connection details from environment variables
   // More info: https://taro-docs.jd.com/docs/next/env-mode-config
