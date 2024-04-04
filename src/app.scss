@@ -1,8 +1,18 @@
-.container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+page {
+  background-color: #f6f6f6;
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  page {
+    background-color: #1f1f1f;
+  }
 }

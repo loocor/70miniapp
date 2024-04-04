@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-undef
 export default defineAppConfig({
-  darkmode: true,
+  darkmode: false,
   themeLocation: 'theme.json',
   window: {
     navigationBarTitleText: '70fitness',

@@ -1,7 +1,7 @@
 import {useState} from "react";
 import Taro from "@tarojs/taro";
 import {View} from '@tarojs/components'
-import {Animate, Avatar, Cell, Col, Divider, Row, SafeArea} from "@nutui/nutui-react-taro"
+import {Animate, Avatar, Cell, Col, Divider, Row} from "@nutui/nutui-react-taro"
 import {ArrowRight, BookMark, Calendar, FilterV, Invoice, Reward, Tips, User} from '@nutui/icons-react-taro'
 import './index.scss'
 
@@ -134,10 +134,8 @@ function Index() {
   return (
     <>
       {Header}
-
       <View className='menus'>
         {MenuCell}
-        <SafeArea position='bottom' />
       </View>
     </>
   )
