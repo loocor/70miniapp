@@ -21,7 +21,12 @@ export default defineConfig(async (merge) => {
     plugins: ['@tarojs/plugin-html'],
     defineConstants: {},
     copy: {
-      patterns: [],
+      patterns: [
+        {
+          from: 'src/assets',
+          to: `dist/${process.env.TARO_ENV}/assets`,
+        }
+      ],
       options: {}
     },
     framework: 'react',
