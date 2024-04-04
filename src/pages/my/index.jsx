@@ -4,16 +4,18 @@ import {Button} from "@nutui/nutui-react-taro"
 import './index.scss'
 
 function Index() {
-  // 返回 main 页面
-  const goBack = () => {
-    Taro.navigateBack()
+  // 前往 About 页面
+  const goAbout = () => {
+    Taro.navigateTo({
+      url: '/modules/my/version/index'
+    })
   }
 
   return (
     <View className='container'>
       <View>
-        <Button type='primary' onClick={goBack}>
-          Go back
+        <Button type='primary' onClick={goAbout}>
+          Version
         </Button>
       </View>
     </View>
