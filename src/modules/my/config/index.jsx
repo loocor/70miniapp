@@ -1,6 +1,6 @@
 import {View} from '@tarojs/components'
 import {Cell, Switch} from "@nutui/nutui-react-taro";
-import {AddRectangle, ArrowRight, Clock, Edit, NoReceive, Received, RemoveRectangle, ShieldWarning} from "@nutui/icons-react-taro";
+import {AddRectangle, Clock, Edit, NoReceive, Received, RemoveRectangle, ShieldWarning} from "@nutui/icons-react-taro";
 import './index.scss'
 
 function Index() {
