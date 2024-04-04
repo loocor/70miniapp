@@ -22,7 +22,8 @@ export default defineAppConfig({
       name: 'my',
       root: 'modules/my/',
       pages: [
-        'version/index',
+        'eula/index',
+        'config/index',
       ]
     },
     {
