@@ -1,8 +1,9 @@
-dist/
-node_modules/
-deploy_versions/
-.rn_temp/
-.temp/
-.swc
-.env*
 .DS_Store
+.env*
+.swc
+.idea/
+.temp/
+.rn_temp/
+deploy_versions/
+node_modules/
+dist/
