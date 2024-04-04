@@ -1,0 +1,42 @@
+{
+  "light": {
+    "navBgColor": "#f6f6f6",
+    "navTxtStyle": "black",
+    "bgColor": "#ffffff",
+    "bgTxtStyle": "light",
+    "bgColorTop": "#eeeeee",
+    "bgColorBottom": "#efefef",
+    "tabFontColor": "#000000",
+    "tabSelectedColor": "#3cc51f",
+    "tabBgColor": "#ffffff",
+    "tabBorderStyle": "black",
+    "homeIconPath": "assets/tabbar/light/home.png",
+    "homeIconActivePath": "assets/tabbar/light/home-active.png",
+    "myIconPath": "assets/tabbar/light/my.png",
+    "myIconActivePath": "assets/tabbar/light/my-active.png",
+    "scheduleIconPath": "assets/tabbar/light/schedule.png",
+    "scheduleIconActivePath": "assets/tabbar/light/schedule-active.png",
+    "storeIconPath": "assets/tabbar/light/store.png",
+    "storeIconActivePath": "assets/tabbar/light/store-active.png"
+  },
+  "dark": {
+    "navBgColor": "#191919",
+    "navTxtStyle": "white",
+    "bgColor": "#1f1f1f",
+    "bgTxtStyle": "dark",
+    "bgColorTop": "#191919",
+    "bgColorBottom": "#1f1f1f",
+    "tabFontColor": "#ffffff",
+    "tabSelectedColor": "#51a937",
+    "tabBgColor": "#191919",
+    "tabBorderStyle": "white",
+    "homeIconPath": "assets/tabbar/dark/home.png",
+    "homeIconActivePath": "assets/tabbar/dark/home-active.png",
+    "myIconPath": "assets/tabbar/dark/my.png",
+    "myIconActivePath": "assets/tabbar/dark/my-active.png",
+    "scheduleIconPath": "assets/tabbar/dark/schedule.png",
+    "scheduleIconActivePath": "assets/tabbar/dark/schedule-active.png",
+    "storeIconPath": "assets/tabbar/dark/store.png",
+    "storeIconActivePath": "assets/tabbar/dark/store-active.png"
+  }
+}

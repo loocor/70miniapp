@@ -1,10 +1,15 @@
 // eslint-disable-next-line no-undef
 export default defineAppConfig({
+  darkmode: true,
+  themeLocation: 'theme.json',
   window: {
-    backgroundTextStyle: 'light',
-    navigationBarBackgroundColor: '#fff',
     navigationBarTitleText: '70fitness',
-    navigationBarTextStyle: 'black'
+    navigationBarBackgroundColor: "@navBgColor",
+    navigationBarTextStyle: "@navTxtStyle",
+    backgroundColor: "@bgColor",
+    backgroundTextStyle: "@bgTxtStyle",
+    backgroundColorTop: "@bgColorTop",
+    backgroundColorBottom: "@bgColorBottom"
   },
   pages: [
     'pages/index/index',
@@ -39,34 +44,34 @@ export default defineAppConfig({
     }
   ],
   tabBar: {
-    color: '#888',
-    selectedColor: '#000',
-    backgroundColor: '#fff',
-    borderStyle: 'black',
+    color: "@tabFontColor",
+    selectedColor: "@tabSelectedColor",
+    backgroundColor: "@tabBgColor",
+    borderStyle: "@tabBorderStyle",
     list: [
       {
         text: '首页',
         pagePath: 'pages/index/index',
-        iconPath: 'assets/tabbar/home.png',
-        selectedIconPath: 'assets/tabbar/home-active.png',
+        iconPath: '@homeIconPath',
+        selectedIconPath: '@homeIconActivePath',
       },
       {
         text: '课表',
         pagePath: 'pages/schedule/index',
-        iconPath: 'assets/tabbar/schedule.png',
-        selectedIconPath: 'assets/tabbar/schedule-active.png',
+        iconPath: '@scheduleIconPath',
+        selectedIconPath: '@scheduleIconActivePath',
       },
       {
         text: '商城',
         pagePath: 'pages/store/index',
-        iconPath: 'assets/tabbar/store.png',
-        selectedIconPath: 'assets/tabbar/store-active.png',
+        iconPath: '@storeIconPath',
+        selectedIconPath: '@storeIconActivePath',
       },
       {
         text: '我的',
         pagePath: 'pages/my/index',
-        iconPath: 'assets/tabbar/my.png',
-        selectedIconPath: 'assets/tabbar/my-active.png',
+        iconPath: '@myIconPath',
+        selectedIconPath: '@myIconActivePath',
       }
     ]
   }
