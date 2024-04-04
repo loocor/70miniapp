@@ -1,0 +1,18 @@
+.config {
+  background-color: #efefef;
+  padding: 16px;
+
+  .title {
+    display: inline-flex;
+    align-items: center;
+
+    .icon {
+      color: #CF0F32;
+      margin-right: 8px;
+    }
+
+    .text {
+      font-size: 14px;
+    }
+  }
+}
