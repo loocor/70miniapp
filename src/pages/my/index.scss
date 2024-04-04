@@ -1,1 +1,37 @@
+$header_height: 186px;
 
+.header {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #CF0F32;
+  height: $header_height;
+  padding: 0 32px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+
+  .desc {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+
+.menus {
+  background-color: #efefef;
+  padding: 16px;
+
+  .title {
+    display: inline-flex;
+    align-items: center;
+
+    .icon {
+      color: #CF0F32;
+      margin-right: 8px;
+    }
+
+    .text {
+      font-size: 14px;
+    }
+  }
+}
