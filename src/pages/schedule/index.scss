@@ -1,1 +1,90 @@
+.course {
+  // 距离顶部距离
+  margin-top: 10px;
 
+  // 日期标签外观
+  .nut-tabs-titles-item-active {
+    border-radius: 4px 4px 0 0;
+  }
+
+  .nut-tabs-titles-item-active:last-of-type {
+    border-radius: 4px 0 0 0;
+  }
+
+  .nut-tabs-titles-item-active:first-of-type {
+    border-radius: 0 4px 0 0;
+  }
+
+  // 日期标签内容
+  .title {
+    line-height: 16px;
+
+    .date {
+    }
+
+    .week {
+    }
+  }
+
+  // 课程内容多天
+  .course-swiper {
+    background: linear-gradient(to bottom, white, transparent);
+
+    // 课程内容单天
+    .course-day {
+      padding: 0 4px;
+
+      .course-item {
+        padding: 8px 10px;
+
+        .title {
+          display: inline-flex;
+          align-items: center;
+
+          .image {
+            margin-right: 10px;
+          }
+
+          .name {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            height: 24px;
+          }
+
+          .time,
+          .coach {
+            line-height: 18px;
+            height: 18px;
+          }
+
+          .time {
+            font-size: 11px;
+            color: #808080;
+          }
+
+          .coach {
+            font-size: 13px;
+            color: #606060;
+          }
+        }
+
+        .extra {
+          height: 60px;
+          line-height: 60px;
+          display: inline-flex;
+          align-items: center;
+
+          .nut-tag {
+            font-size: 11px;
+            padding: 2px 5px;
+          }
+
+          .nut-tag-round {
+            border-radius: 12px;
+          }
+        }
+      }
+    }
+  }
+}
