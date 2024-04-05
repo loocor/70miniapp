@@ -1,0 +1,17 @@
+.contact {
+  font-family: Arial, Helvetica Neue, sans-serif;
+  color: #00000044;
+  font-size: 9pt;
+  padding: 2px;
+}
+
+.contact,
+.contact::after{
+  background: none;
+  border: none;
+}
+
+.contact:hover,
+.contact:hover::after {
+  color: #00000088;
+}

@@ -4,6 +4,7 @@ import {View} from '@tarojs/components'
 import {Animate, Avatar, Cell, Col, Divider, Row} from "@nutui/nutui-react-taro"
 import {ArrowRight, BookMark, Calendar, FilterV, Invoice, Reward, Tips, User} from '@nutui/icons-react-taro'
 import './index.scss'
+import {Footer} from "@/components/footer";
 
 function Index() {
   // TODO: 用户信息
@@ -137,6 +138,7 @@ function Index() {
       <View className='menus'>
         {MenuCell}
       </View>
+      <Footer />
     </>
   )
 }
